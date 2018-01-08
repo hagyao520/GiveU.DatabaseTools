@@ -1,0 +1,227 @@
+    
+1	/** 用户信息查询按钮 */  
+	private JButton UserInfoButton;
+	/** 用户信息查询输入框 */
+	private JTextField UserInfoTextField;
+
+1	/** 用户绑定门店信息查询按钮 */  
+	private JButton UserBoundStoreButton;
+	/** 用户绑定门店信息查询输入框 */
+	private JTextField UserBoundStoreTextField;
+	
+1	/** 城市绑定合同模式查询按钮 */  
+	private JButton CityBoundContractModeButton;
+	/** 城市绑定合同模式查询输入框 */
+	private JTextField CityBoundContractModeTextField;
+	
+1	/** 门店绑定商品类型查询按钮 */
+	private JButton StoreBoundCommodityTypeButton; 
+	/** 门店绑定商品类型查询输入框 */
+	private JTextField StoreBoundCommodityTypeTextField;
+	
+1	/** 门店绑定产品版本查询按钮 */
+	private JButton StoreBoundProductVersionButton; 
+	/** 门店绑定产品版本查询输入框 */
+	private JTextField StoreBoundProductVersionTextField;
+	
+2	/** 产品版本查询按钮 */
+	private JButton ProductVersionButton; 
+	/** 产品版本代码输入框 */
+	private JTextField ProductVersionCodeTextField;
+	/** 产品注册代码输入框 */
+	private JTextField ProductRegistrationCodeTextField;
+	
+6	/** 产品信息查询按钮 */
+	private JButton ProductInformationButton; 
+	/** 合同模式输入框 */
+	private JTextField ContractModeTextField;
+	/** 商品类型输入框 */
+	private JTextField CommodityTypeTextField;
+	/** 产品版本输入框 */
+	private JTextField ProductVersionTextField;
+	/** 产品类型输入框 */
+	private JTextField ProductTypeTextField;  
+	/** 首付比例输入框 */
+	private JTextField DownPaymentRatioTextField;
+	/** 产品状态输入框 */
+	private JTextField ProductStatusTextField;
+
+3	/** 保险及保险上限费用查询按钮 */
+	private JButton InsuranceFeeButton; 
+	/** 贷款本金输入框 */
+	private JTextField LoanPrincipalTextField_Insurance;  
+	/** 保险费率输入框 */
+	private JTextField InsuranceRateTextField;  
+	/** 产品代码输入框 */
+	private JTextField ProductVersionCodeTextField_Insurance;
+	
+3	/** 百宝箱费用查询按钮 */
+	private JButton TreasureBoxFeeButton;
+	/** 贷款本金输入框 */
+	private JTextField LoanPrincipalTextField_TreasureBox;  
+	/** 百宝箱费率输入框 */
+	private JTextField TreasureBoxRateTextField;  
+	/** 产品代码输入框 */
+	private JTextField ProductVersionCodeTextField_TreasureBox;
+	
+3	/** 商城赠券费用查询按钮 */
+	private JButton MallCouponsFeeButton;  
+	/** 贷款本金输入框 */
+	private JTextField LoanPrincipalTextField_MallCoupons;  
+	/** 商城赠券费率输入框 */
+	private JTextField MallCouponsRateTextField;  
+	/** 产品代码输入框 */
+	private JTextField ProductVersionCodeTextField_MallCoupons;
+	
+4	/** 每期应还费用查询按钮 */
+	private JButton EachPeriodShouldBeReturnedFeeButton;    
+	/** 贷款本金输入框 */
+	private JTextField LoanPrincipalTextField_EachPeriodShouldBeReturned;  
+	/** 保险费输入框 */
+	private JTextField InsuranceFeeTextField_EachPeriodShouldBeReturned;  
+	/** 百宝箱费输入框 */
+	private JTextField TreasureBoxFeeTextField_EachPeriodShouldBeReturned;
+	/** 产品代码输入框 */
+	private JTextField ProductVersionCodeTextField_EachPeriodShouldBeReturned;
+	
+1	/** 全面保费用查询按钮 */
+	private JButton ComprehensiveInsuranceFeeButton;    
+	/** 贷款本金输入框 */
+	private JTextField LoanPrincipalTextField_ComprehensiveInsurance;  
+
+1	/** 教育程度查询按钮 */
+	private JButton EducationalLevelButton;      
+	/** 教育程度注册代码输入框 */
+	private JTextField EducationalLevelRegistrationCodeTextField;
+		
+1	/** 住房情况查询按钮 */
+	private JButton HousingSituationButton;          
+	/** 住房情况注册代码输入框 */
+	private JTextField HousingSituationRegistrationCodeTextField;
+	
+1	/** 婚姻状况查询按钮 */
+	private JButton MaritalStatusButton;            
+	/** 婚姻状况注册代码输入框 */
+	private JTextField MaritalStatusRegistrationCodeTextField;
+	
+1	/** 行业类别查询按钮 */
+	private JButton IndustryCategoryButton;              
+	/** 行业类别注册代码输入框 */
+	private JTextField IndustryCategoryRegistrationCodeTextField;
+
+1	/** 单位性质查询按钮 */
+	private JButton UnitPropertiesButton;                
+	/** 单位性质注册代码输入框 */
+	private JTextField UnitPropertiesRegistrationCodeTextField;
+	
+1	/** 职位查询按钮 */
+	private JButton PositionButton;        
+	/** 职位注册代码输入框 */
+	private JTextField PositionRegistrationCodeTextField;
+	
+1	/** 工作年限查询按钮 */
+	private JButton WorkingLifeButton;        
+	/** 工作年限注册代码输入框 */
+	private JTextField WorkingLifeRegistrationCodeTextField;
+	
+1	/** 支持银行查询按钮 */
+	private JButton SupportBankButton;          
+	/** 支持银行注册代码输入框 */
+	private JTextField SupportBankRegistrationCodeTextField;
+	
+1	/** 评定内部代码查询按钮 */
+	private JButton EvaluationOfInternalCodeButton;            
+	/** 评定内部代码注册代码输入框 */
+	private JTextField EvaluationOfInternalCodeRegistrationCodeTextField;
+	
+1	/** 短信征信授权验证码查询按钮 */
+	private JButton SMSAuthorizationAuthenticationCodeButton;              
+	/** 手机号输入框 */
+	private JTextField PhoneNumberTextField_SMSAuthorizationAuthentication;  
+	
+1	/** 客户合同查询按钮 */
+	private JButton CustomerContractButton;                  
+	/** 销售ID输入框 */
+	private JTextField SellingIDTextField; 
+	
+5	/** 每期还款费用查询按钮 */
+	private JButton RepaymentsForEachPeriodFeeButton;      
+	/** 贷款本金输入框 */
+	private JTextField LoanPrincipalTextField_RepaymentsForEachPeriod;  
+	/** 保险费输入框 */
+	private JTextField InsuranceFeeTextField_RepaymentsForEachPeriod;  
+	/** 百宝箱费用输入框 */
+	private JTextField TreasureBoxFeeTextField_RepaymentsForEachPeriod;
+	/** 全面保费输入框 */
+	private JTextField ComprehensiveInsuranceFeeTextField; 
+	/** 产品代码输入框 */
+	private JTextField ProductVersionCodeTextField_RepaymentsForEachPeriod;
+	
+2	/** 每月还款额费用查询按钮 */
+	private JButton MonthlyReturnFeeButton;       
+	/** 贷款本金输入框 */
+	private JTextField LoanPrincipalTextField_MonthlyReturn;  
+	/** 产品代码输入框 */
+	private JTextField ProductVersionCodeTextField_MonthlyReturn;
+	
+1	/** 每月应还本息费用查询按钮 */
+	private JButton MonthlyWeShouldAlsoPrincipalFeeButton;      
+	/** 每月应还本息费用输入框 */
+	private JTextField ContractNumberTextField_MonthlyWeShouldAlsoPrincipal;    
+
+1	/** 每月应付费用查询按钮 */
+	private JButton MonthlyPayableFeeButton;
+	/** 合同号输入框 */
+	private JTextField ContractNumberTextField_MonthlyPayable; 
+	
+1	/** 月咨询费及月咨询费率查询按钮 */
+	private JButton MonthlyConsultingFeeAndRateButton;
+	/** 合同号输入框 */
+	private JTextField ContractNumberTextField_MonthlyConsulting; 
+	
+1	/** 月服务费及月服务费率查询按钮 */
+	private JButton MonthlyServiceFeeAndRateButton;  
+	/** 合同号输入框 */
+	private JTextField ContractNumberTextField_MonthlyService; 
+	
+1	/** 月贷款利率查询按钮 */
+	private JButton MonthlyLoanInterestRateButton;    
+	/** 合同号输入框 */
+	private JTextField ContractNumberTextField_MonthlyLoanInterestRate; 
+	
+	
+2	/** 合同状态修改按钮 */
+	private JButton ContractStateUpdateButton;      
+	/** 合同号输入框 */
+	private JTextField ContractNumberTextField_ContractStateUpdate; 
+	/** 合同状态输入框 */
+	private JTextField ContractStateTextField_ContractStateUpdate; 
+	
+1	/** 短信签章验证码查询按钮 */
+	private JButton ShortMessageSignatureCodeButton;                
+	/** 手机号输入框 */
+	private JTextField PhoneNumberTextField_ShortMessageSignature; 
+	
+1	/** PDF签章合同查询按钮 */  
+	private JButton PDFSigningContractButton;                
+	/** 合同号输入框 */
+	private JTextField ContractNumberTextField_PDFSigningContract; 
+	
+2	/** 签章记录删除按钮 */  
+	private JButton SignatureRecordDeleteButton; 
+	/** 合同ID输入框 */
+	private JTextField ContractIDTextField_SignatureRecord; 
+	/** 合同号输入框 */
+	private JTextField ContractNumberTextField_SignatureRecord; 
+	
+2	/** 存储过程执行按钮 */  
+	private JButton StoredProcedureExecutionButton;   
+	/** 存储过程名称输入框 */
+	private JTextField StoredProcedureNameTextField_StoredProcedureExecution; 
+	/** 合同号输入框 */
+	private JTextField ContractNumberTextField_StoredProcedureExecution;
+	
+2	/** 还款计划表查询按钮 */  
+	private JButton ReimbursementPlanButton;      
+	/** 合同ID输入框 */
+	private JTextField ContractIDTextField_ReimbursementPlan; 

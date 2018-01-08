@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: databasetools.StartClient
+Class-Path: ./ ./Libs/DataBase/ojdbc7.jar ./ ./Libs/Log4j/slf4j-api-1.6.6.jar

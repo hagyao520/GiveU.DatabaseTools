@@ -1,0 +1,652 @@
+            
+			UserInfoButton = new JButton("用户信息查询");
+			UserInfoButton.setFont(Constants.BASIC_FONT4);
+			UserInfoButton.setBounds(10, 10, 140, 25);
+			MainPanel.add(UserInfoButton);
+
+			UserInfoTextField = new JTextField();
+			UserInfoTextField.setBounds(160, 10, 180, 25);
+			UserInfoTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			UserInfoTextField.setText("请输入用户ID...");
+			UserInfoTextField.setFont(Constants.BASIC_FONT4);
+			UserInfoTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(UserInfoTextField);
+				
+			UserBoundStoreButton = new JButton("用户绑定门店");
+			UserBoundStoreButton.setFont(Constants.BASIC_FONT4);
+			UserBoundStoreButton.setBounds(350, 10, 140, 25);
+			MainPanel.add(UserBoundStoreButton);
+	
+			UserBoundStoreTextField = new JTextField();
+			UserBoundStoreTextField.setBounds(500, 10, 220, 25);
+			UserBoundStoreTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			UserBoundStoreTextField.setText("请输入用户ID...");
+			UserBoundStoreTextField.setFont(Constants.BASIC_FONT4);
+			UserBoundStoreTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(UserBoundStoreTextField);
+			
+			CityBoundContractModeButton = new JButton("城市绑定合同模式");
+			CityBoundContractModeButton.setFont(Constants.BASIC_FONT4);
+			CityBoundContractModeButton.setBounds(10, 40, 140, 25);
+			MainPanel.add(CityBoundContractModeButton);
+	
+			CityBoundContractModeTextField = new JTextField();
+			CityBoundContractModeTextField.setBounds(160, 40, 180, 25);
+			CityBoundContractModeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			CityBoundContractModeTextField.setText("请输入城市名称...");
+			CityBoundContractModeTextField.setFont(Constants.BASIC_FONT4);
+			CityBoundContractModeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(CityBoundContractModeTextField);
+			
+			StoreBoundCommodityTypeButton = new JButton("门店绑定商品类型");
+			StoreBoundCommodityTypeButton.setFont(Constants.BASIC_FONT4);
+			StoreBoundCommodityTypeButton.setBounds(350, 40, 140, 25);
+			MainPanel.add(StoreBoundCommodityTypeButton);
+	
+			StoreBoundCommodityTypeTextField = new JTextField();
+			StoreBoundCommodityTypeTextField.setBounds(500, 40, 220, 25);
+			StoreBoundCommodityTypeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			StoreBoundCommodityTypeTextField.setText("请输入门店代码...");
+			StoreBoundCommodityTypeTextField.setFont(Constants.BASIC_FONT4);
+			StoreBoundCommodityTypeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(StoreBoundCommodityTypeTextField);
+			
+			StoreBoundProductVersionButton = new JButton("门店绑定产品版本");
+			StoreBoundProductVersionButton.setFont(Constants.BASIC_FONT4);
+			StoreBoundProductVersionButton.setBounds(10, 70, 140, 25);
+			MainPanel.add(StoreBoundProductVersionButton);
+	
+			StoreBoundProductVersionTextField = new JTextField();
+			StoreBoundProductVersionTextField.setBounds(160, 70, 560, 25);
+			StoreBoundProductVersionTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			StoreBoundProductVersionTextField.setText("请输入门店代码...");
+			StoreBoundProductVersionTextField.setFont(Constants.BASIC_FONT4);
+			StoreBoundProductVersionTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(StoreBoundProductVersionTextField);
+			
+			ProductVersionButton = new JButton("产品版本查询");
+			ProductVersionButton.setFont(Constants.BASIC_FONT4);
+			ProductVersionButton.setBounds(10, 100, 140, 25);
+			MainPanel.add(ProductVersionButton);
+	
+			ProductVersionCodeTextField = new JTextField();
+			ProductVersionCodeTextField.setBounds(160, 100, 275, 25);
+			ProductVersionCodeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ProductVersionCodeTextField.setText("请输入产品版本代码...");
+			ProductVersionCodeTextField.setFont(Constants.BASIC_FONT4);
+			ProductVersionCodeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ProductVersionCodeTextField);
+			
+			ProductRegistrationCodeTextField = new JTextField();
+			ProductRegistrationCodeTextField.setBounds(445, 100, 275, 25);
+			ProductRegistrationCodeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ProductRegistrationCodeTextField.setText("请输入产品注册代码...");
+			ProductRegistrationCodeTextField.setFont(Constants.BASIC_FONT4);
+			ProductRegistrationCodeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ProductRegistrationCodeTextField);
+			
+			ProductInformationButton = new JButton("产品信息查询");
+			ProductInformationButton.setFont(Constants.BASIC_FONT4);
+			ProductInformationButton.setBounds(10, 130, 140, 25*2+5);
+			MainPanel.add(ProductInformationButton);
+	
+			ContractModeTextField = new JTextField();
+			ContractModeTextField.setBounds(160, 130, 180, 25);
+			ContractModeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ContractModeTextField.setText("请输入合同模式..");
+			ContractModeTextField.setFont(Constants.BASIC_FONT4);
+			ContractModeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ContractModeTextField);
+			
+			CommodityTypeTextField = new JTextField();
+			CommodityTypeTextField.setBounds(350, 130, 180, 25);
+			CommodityTypeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			CommodityTypeTextField.setText("请输入商品类型...");
+			CommodityTypeTextField.setFont(Constants.BASIC_FONT4);
+			CommodityTypeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(CommodityTypeTextField);
+			
+			ProductVersionTextField = new JTextField();
+			ProductVersionTextField.setBounds(540, 130, 180, 25);
+			ProductVersionTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ProductVersionTextField.setText("请输入产品版本...");
+			ProductVersionTextField.setFont(Constants.BASIC_FONT4);
+			ProductVersionTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ProductVersionTextField);
+			
+			ProductTypeTextField = new JTextField();
+			ProductTypeTextField.setBounds(160, 160, 180, 25);
+			ProductTypeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ProductTypeTextField.setText("请输入产品类型...");
+			ProductTypeTextField.setFont(Constants.BASIC_FONT4);
+			ProductTypeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ProductTypeTextField);
+			
+			DownPaymentRatioTextField = new JTextField();
+			DownPaymentRatioTextField.setBounds(350, 160, 180, 25);
+			DownPaymentRatioTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			DownPaymentRatioTextField.setText("请输入首付比例...");
+			DownPaymentRatioTextField.setFont(Constants.BASIC_FONT4);
+			DownPaymentRatioTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(DownPaymentRatioTextField);
+			
+			ProductStatusTextField = new JTextField();
+			ProductStatusTextField.setBounds(540, 160, 180, 25);
+			ProductStatusTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ProductStatusTextField.setText("请输入产品状态...");
+			ProductStatusTextField.setFont(Constants.BASIC_FONT4);
+			ProductStatusTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ProductStatusTextField);
+	
+			InsuranceFeeButton = new JButton("保险及上限费查询");
+			InsuranceFeeButton.setFont(Constants.BASIC_FONT4);
+			InsuranceFeeButton.setBounds(10, 190, 140, 25);
+			MainPanel.add(InsuranceFeeButton);
+	
+			LoanPrincipalTextField_Insurance = new JTextField();
+			LoanPrincipalTextField_Insurance.setBounds(160, 190, 180, 25);
+			LoanPrincipalTextField_Insurance.setBorder(Constants.LIGHT_GRAY_BORDER);
+			LoanPrincipalTextField_Insurance.setText("请输入贷款本金...");
+			LoanPrincipalTextField_Insurance.setFont(Constants.BASIC_FONT4);
+			LoanPrincipalTextField_Insurance.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(LoanPrincipalTextField_Insurance);
+			
+			InsuranceRateTextField = new JTextField();
+			InsuranceRateTextField.setBounds(350, 190, 180, 25);
+			InsuranceRateTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			InsuranceRateTextField.setText("请输入保险费率...");
+			InsuranceRateTextField.setFont(Constants.BASIC_FONT4);
+			InsuranceRateTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(InsuranceRateTextField);
+			
+			ProductVersionCodeTextField_Insurance = new JTextField();
+			ProductVersionCodeTextField_Insurance.setBounds(540, 190, 180, 25);
+			ProductVersionCodeTextField_Insurance.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ProductVersionCodeTextField_Insurance.setText("请输入产品代码...");
+			ProductVersionCodeTextField_Insurance.setFont(Constants.BASIC_FONT4);
+			ProductVersionCodeTextField_Insurance.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ProductVersionCodeTextField_Insurance);
+			
+			TreasureBoxFeeButton = new JButton("百宝箱费用查询");
+			TreasureBoxFeeButton.setFont(Constants.BASIC_FONT4);
+			TreasureBoxFeeButton.setBounds(10, 220, 140, 25);
+			MainPanel.add(TreasureBoxFeeButton);
+	
+			LoanPrincipalTextField_TreasureBox = new JTextField();
+			LoanPrincipalTextField_TreasureBox.setBounds(160, 220, 180, 25);
+			LoanPrincipalTextField_TreasureBox.setBorder(Constants.LIGHT_GRAY_BORDER);
+			LoanPrincipalTextField_TreasureBox.setText("请输入贷款本金...");
+			LoanPrincipalTextField_TreasureBox.setFont(Constants.BASIC_FONT4);
+			LoanPrincipalTextField_TreasureBox.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(LoanPrincipalTextField_TreasureBox);
+			
+			TreasureBoxRateTextField = new JTextField();
+			TreasureBoxRateTextField.setBounds(350, 220, 180, 25);
+			TreasureBoxRateTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			TreasureBoxRateTextField.setText("请输入百宝箱费率...");
+			TreasureBoxRateTextField.setFont(Constants.BASIC_FONT4);
+			TreasureBoxRateTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(TreasureBoxRateTextField);
+			
+			ProductVersionCodeTextField_TreasureBox = new JTextField();
+			ProductVersionCodeTextField_TreasureBox.setBounds(540, 220, 180, 25);
+			ProductVersionCodeTextField_TreasureBox.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ProductVersionCodeTextField_TreasureBox.setText("请输入产品代码...");
+			ProductVersionCodeTextField_TreasureBox.setFont(Constants.BASIC_FONT4);
+			ProductVersionCodeTextField_TreasureBox.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ProductVersionCodeTextField_TreasureBox);
+			
+			MallCouponsFeeButton = new JButton("商城赠券费用查询");
+			MallCouponsFeeButton.setFont(Constants.BASIC_FONT4);
+			MallCouponsFeeButton.setBounds(10, 250, 140, 25);
+			MainPanel.add(MallCouponsFeeButton);
+	
+			LoanPrincipalTextField_MallCoupons = new JTextField();
+			LoanPrincipalTextField_MallCoupons.setBounds(160, 250, 180, 25);
+			LoanPrincipalTextField_MallCoupons.setBorder(Constants.LIGHT_GRAY_BORDER);
+			LoanPrincipalTextField_MallCoupons.setText("请输入贷款本金...");
+			LoanPrincipalTextField_MallCoupons.setFont(Constants.BASIC_FONT4);
+			LoanPrincipalTextField_MallCoupons.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(LoanPrincipalTextField_MallCoupons);
+			
+			MallCouponsRateTextField = new JTextField();
+			MallCouponsRateTextField.setBounds(350, 250, 180, 25);
+			MallCouponsRateTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			MallCouponsRateTextField.setText("请输入商城赠券费率...");
+			MallCouponsRateTextField.setFont(Constants.BASIC_FONT4);
+			MallCouponsRateTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(MallCouponsRateTextField);
+			
+			ProductVersionCodeTextField_MallCoupons = new JTextField();
+			ProductVersionCodeTextField_MallCoupons.setBounds(540, 250, 180, 25);
+			ProductVersionCodeTextField_MallCoupons.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ProductVersionCodeTextField_MallCoupons.setText("请输入产品代码...");
+			ProductVersionCodeTextField_MallCoupons.setFont(Constants.BASIC_FONT4);
+			ProductVersionCodeTextField_MallCoupons.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ProductVersionCodeTextField_MallCoupons);
+			
+			EachPeriodShouldBeReturnedFeeButton = new JButton("每期应还费用查询");
+			EachPeriodShouldBeReturnedFeeButton.setFont(Constants.BASIC_FONT4);
+			EachPeriodShouldBeReturnedFeeButton.setBounds(10, 280, 140, 25);
+			MainPanel.add(EachPeriodShouldBeReturnedFeeButton);
+	
+			LoanPrincipalTextField_EachPeriodShouldBeReturned = new JTextField();
+			LoanPrincipalTextField_EachPeriodShouldBeReturned.setBounds(160, 280, 130, 25);
+			LoanPrincipalTextField_EachPeriodShouldBeReturned.setBorder(Constants.LIGHT_GRAY_BORDER);
+			LoanPrincipalTextField_EachPeriodShouldBeReturned.setText("请输入贷款本金...");
+			LoanPrincipalTextField_EachPeriodShouldBeReturned.setFont(Constants.BASIC_FONT4);
+			LoanPrincipalTextField_EachPeriodShouldBeReturned.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(LoanPrincipalTextField_EachPeriodShouldBeReturned);
+			
+			InsuranceFeeTextField_EachPeriodShouldBeReturned = new JTextField();
+			InsuranceFeeTextField_EachPeriodShouldBeReturned.setBounds(300, 280, 130, 25);
+			InsuranceFeeTextField_EachPeriodShouldBeReturned.setBorder(Constants.LIGHT_GRAY_BORDER);
+			InsuranceFeeTextField_EachPeriodShouldBeReturned.setText("请输入保险费...");
+			InsuranceFeeTextField_EachPeriodShouldBeReturned.setFont(Constants.BASIC_FONT4);
+			InsuranceFeeTextField_EachPeriodShouldBeReturned.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(InsuranceFeeTextField_EachPeriodShouldBeReturned);
+			
+			TreasureBoxFeeTextField_EachPeriodShouldBeReturned = new JTextField();
+			TreasureBoxFeeTextField_EachPeriodShouldBeReturned.setBounds(440, 280, 130, 25);
+			TreasureBoxFeeTextField_EachPeriodShouldBeReturned.setBorder(Constants.LIGHT_GRAY_BORDER);
+			TreasureBoxFeeTextField_EachPeriodShouldBeReturned.setText("请输入百宝箱费...");
+			TreasureBoxFeeTextField_EachPeriodShouldBeReturned.setFont(Constants.BASIC_FONT4);
+			TreasureBoxFeeTextField_EachPeriodShouldBeReturned.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(TreasureBoxFeeTextField_EachPeriodShouldBeReturned);
+			
+			ProductVersionCodeTextField_EachPeriodShouldBeReturned = new JTextField();
+			ProductVersionCodeTextField_EachPeriodShouldBeReturned.setBounds(580, 280, 140, 25);
+			ProductVersionCodeTextField_EachPeriodShouldBeReturned.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ProductVersionCodeTextField_EachPeriodShouldBeReturned.setText("请输入产品代码...");
+			ProductVersionCodeTextField_EachPeriodShouldBeReturned.setFont(Constants.BASIC_FONT4);
+			ProductVersionCodeTextField_EachPeriodShouldBeReturned.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ProductVersionCodeTextField_EachPeriodShouldBeReturned);
+			
+			ComprehensiveInsuranceFeeButton = new JButton("全面保费用查询");
+			ComprehensiveInsuranceFeeButton.setFont(Constants.BASIC_FONT4);
+			ComprehensiveInsuranceFeeButton.setBounds(10, 310, 140, 25);
+			MainPanel.add(ComprehensiveInsuranceFeeButton);
+	
+			LoanPrincipalTextField_ComprehensiveInsurance = new JTextField();
+			LoanPrincipalTextField_ComprehensiveInsurance.setBounds(160, 310, 180, 25);
+			LoanPrincipalTextField_ComprehensiveInsurance.setBorder(Constants.LIGHT_GRAY_BORDER);
+			LoanPrincipalTextField_ComprehensiveInsurance.setText("请输入贷款本金...");
+			LoanPrincipalTextField_ComprehensiveInsurance.setFont(Constants.BASIC_FONT4);
+			LoanPrincipalTextField_ComprehensiveInsurance.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(LoanPrincipalTextField_ComprehensiveInsurance);
+			
+			EducationalLevelButton = new JButton("教育程度查询");
+			EducationalLevelButton.setFont(Constants.BASIC_FONT4);
+			EducationalLevelButton.setBounds(350, 310, 140, 25);
+			MainPanel.add(EducationalLevelButton);
+	
+			EducationalLevelRegistrationCodeTextField = new JTextField();
+			EducationalLevelRegistrationCodeTextField.setBounds(500, 310, 220, 25);
+			EducationalLevelRegistrationCodeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			EducationalLevelRegistrationCodeTextField.setText("请输入教育程度注册代码...");
+			EducationalLevelRegistrationCodeTextField.setFont(Constants.BASIC_FONT4);
+			EducationalLevelRegistrationCodeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(EducationalLevelRegistrationCodeTextField);
+			
+			HousingSituationButton = new JButton("住房情况查询");
+			HousingSituationButton.setFont(Constants.BASIC_FONT4);
+			HousingSituationButton.setBounds(10, 340, 140, 25);
+			MainPanel.add(HousingSituationButton);
+	
+			HousingSituationRegistrationCodeTextField = new JTextField();
+			HousingSituationRegistrationCodeTextField.setBounds(160, 340, 180, 25);
+			HousingSituationRegistrationCodeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			HousingSituationRegistrationCodeTextField.setText("请输入住房情况注册代码...");
+			HousingSituationRegistrationCodeTextField.setFont(Constants.BASIC_FONT4);
+			HousingSituationRegistrationCodeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(HousingSituationRegistrationCodeTextField);
+			
+			MaritalStatusButton = new JButton("婚姻状况查询");
+			MaritalStatusButton.setFont(Constants.BASIC_FONT4);
+			MaritalStatusButton.setBounds(350, 340, 140, 25);
+			MainPanel.add(MaritalStatusButton);
+	
+			MaritalStatusRegistrationCodeTextField = new JTextField();
+			MaritalStatusRegistrationCodeTextField.setBounds(500, 340, 220, 25);
+			MaritalStatusRegistrationCodeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			MaritalStatusRegistrationCodeTextField.setText("请输入婚姻状况注册代码...");
+			MaritalStatusRegistrationCodeTextField.setFont(Constants.BASIC_FONT4);
+			MaritalStatusRegistrationCodeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(MaritalStatusRegistrationCodeTextField);
+			
+			IndustryCategoryButton = new JButton("行业类别查询");
+			IndustryCategoryButton.setFont(Constants.BASIC_FONT4);
+			IndustryCategoryButton.setBounds(10, 370, 140, 25);
+			MainPanel.add(IndustryCategoryButton);
+	
+			IndustryCategoryRegistrationCodeTextField = new JTextField();
+			IndustryCategoryRegistrationCodeTextField.setBounds(160, 370, 180, 25);
+			IndustryCategoryRegistrationCodeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			IndustryCategoryRegistrationCodeTextField.setText("请输入行业类别注册代码...");
+			IndustryCategoryRegistrationCodeTextField.setFont(Constants.BASIC_FONT4);
+			IndustryCategoryRegistrationCodeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(IndustryCategoryRegistrationCodeTextField);
+			
+			UnitPropertiesButton = new JButton("单位性质查询");
+			UnitPropertiesButton.setFont(Constants.BASIC_FONT4);
+			UnitPropertiesButton.setBounds(350, 370, 140, 25);
+			MainPanel.add(UnitPropertiesButton);
+	
+			UnitPropertiesRegistrationCodeTextField = new JTextField();
+			UnitPropertiesRegistrationCodeTextField.setBounds(500, 370, 220, 25);
+			UnitPropertiesRegistrationCodeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			UnitPropertiesRegistrationCodeTextField.setText("请输入单位性质注册代码...");
+			UnitPropertiesRegistrationCodeTextField.setFont(Constants.BASIC_FONT4);
+			UnitPropertiesRegistrationCodeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(UnitPropertiesRegistrationCodeTextField);
+			
+			PositionButton = new JButton("职位信息查询");
+			PositionButton.setFont(Constants.BASIC_FONT4);
+			PositionButton.setBounds(10, 400, 140, 25);
+			MainPanel.add(PositionButton);
+	
+			PositionRegistrationCodeTextField = new JTextField();
+			PositionRegistrationCodeTextField.setBounds(160, 400, 180, 25);
+			PositionRegistrationCodeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			PositionRegistrationCodeTextField.setText("请输入职位注册代码...");
+			PositionRegistrationCodeTextField.setFont(Constants.BASIC_FONT4);
+			PositionRegistrationCodeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(PositionRegistrationCodeTextField);
+			
+			WorkingLifeButton = new JButton("工作年限查询");
+			WorkingLifeButton.setFont(Constants.BASIC_FONT4);
+			WorkingLifeButton.setBounds(350, 400, 140, 25);
+			MainPanel.add(WorkingLifeButton);
+	
+			WorkingLifeRegistrationCodeTextField = new JTextField();
+			WorkingLifeRegistrationCodeTextField.setBounds(500, 400, 220, 25);
+			WorkingLifeRegistrationCodeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			WorkingLifeRegistrationCodeTextField.setText("请输入工作年限注册代码...");
+			WorkingLifeRegistrationCodeTextField.setFont(Constants.BASIC_FONT4);
+			WorkingLifeRegistrationCodeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(WorkingLifeRegistrationCodeTextField);
+			
+			SupportBankButton = new JButton("支持银行查询");
+			SupportBankButton.setFont(Constants.BASIC_FONT4);
+			SupportBankButton.setBounds(10, 430, 140, 25);
+			MainPanel.add(SupportBankButton);
+	
+			SupportBankRegistrationCodeTextField = new JTextField();
+			SupportBankRegistrationCodeTextField.setBounds(160, 430, 180, 25);
+			SupportBankRegistrationCodeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			SupportBankRegistrationCodeTextField.setText("请输入支持银行注册代码...");
+			SupportBankRegistrationCodeTextField.setFont(Constants.BASIC_FONT4);
+			SupportBankRegistrationCodeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(SupportBankRegistrationCodeTextField);
+			
+			EvaluationOfInternalCodeButton = new JButton("评定内部代码查询");
+			EvaluationOfInternalCodeButton.setFont(Constants.BASIC_FONT4);
+			EvaluationOfInternalCodeButton.setBounds(350, 430, 140, 25);
+			MainPanel.add(EvaluationOfInternalCodeButton);
+	
+			EvaluationOfInternalCodeRegistrationCodeTextField = new JTextField();
+			EvaluationOfInternalCodeRegistrationCodeTextField.setBounds(500, 430, 220, 25);
+			EvaluationOfInternalCodeRegistrationCodeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			EvaluationOfInternalCodeRegistrationCodeTextField.setText("请输入评定内部注册代码...");
+			EvaluationOfInternalCodeRegistrationCodeTextField.setFont(Constants.BASIC_FONT4);
+			EvaluationOfInternalCodeRegistrationCodeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(EvaluationOfInternalCodeRegistrationCodeTextField);
+			
+			SMSAuthorizationAuthenticationCodeButton = new JButton("短征信授权验证码");
+			SMSAuthorizationAuthenticationCodeButton.setFont(Constants.BASIC_FONT4);
+			SMSAuthorizationAuthenticationCodeButton.setBounds(10, 460, 140, 25);
+			MainPanel.add(SMSAuthorizationAuthenticationCodeButton);
+	
+			PhoneNumberTextField_SMSAuthorizationAuthentication = new JTextField();
+			PhoneNumberTextField_SMSAuthorizationAuthentication.setBounds(160, 460, 180, 25);
+			PhoneNumberTextField_SMSAuthorizationAuthentication.setBorder(Constants.LIGHT_GRAY_BORDER);
+			PhoneNumberTextField_SMSAuthorizationAuthentication.setText("请输入手机号...");
+			PhoneNumberTextField_SMSAuthorizationAuthentication.setFont(Constants.BASIC_FONT4);
+			PhoneNumberTextField_SMSAuthorizationAuthentication.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(PhoneNumberTextField_SMSAuthorizationAuthentication);
+			
+			CustomerContractButton = new JButton("客户合同查询");
+			CustomerContractButton.setFont(Constants.BASIC_FONT4);
+			CustomerContractButton.setBounds(350, 460, 140, 25);
+			MainPanel.add(CustomerContractButton);
+	
+			SellingIDTextField = new JTextField();
+			SellingIDTextField.setBounds(500, 460, 220, 25);
+			SellingIDTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			SellingIDTextField.setText("请输入销售ID...");
+			SellingIDTextField.setFont(Constants.BASIC_FONT4);
+			SellingIDTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(SellingIDTextField);
+			
+			RepaymentsForEachPeriodFeeButton = new JButton("每期还款费用查询");
+			RepaymentsForEachPeriodFeeButton.setFont(Constants.BASIC_FONT4);
+			RepaymentsForEachPeriodFeeButton.setBounds(10, 490, 140, 25*2+5);
+			MainPanel.add(RepaymentsForEachPeriodFeeButton);
+	
+			LoanPrincipalTextField_RepaymentsForEachPeriod = new JTextField();
+			LoanPrincipalTextField_RepaymentsForEachPeriod.setBounds(160, 490, 180, 25);
+			LoanPrincipalTextField_RepaymentsForEachPeriod.setBorder(Constants.LIGHT_GRAY_BORDER);
+			LoanPrincipalTextField_RepaymentsForEachPeriod.setText("请输入贷款本金...");
+			LoanPrincipalTextField_RepaymentsForEachPeriod.setFont(Constants.BASIC_FONT4);
+			LoanPrincipalTextField_RepaymentsForEachPeriod.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(LoanPrincipalTextField_RepaymentsForEachPeriod);
+			
+			InsuranceFeeTextField_RepaymentsForEachPeriod = new JTextField();
+			InsuranceFeeTextField_RepaymentsForEachPeriod.setBounds(350, 490, 180, 25);
+			InsuranceFeeTextField_RepaymentsForEachPeriod.setBorder(Constants.LIGHT_GRAY_BORDER);
+			InsuranceFeeTextField_RepaymentsForEachPeriod.setText("请输入保险费...");
+			InsuranceFeeTextField_RepaymentsForEachPeriod.setFont(Constants.BASIC_FONT4);
+			InsuranceFeeTextField_RepaymentsForEachPeriod.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(InsuranceFeeTextField_RepaymentsForEachPeriod);
+			
+			TreasureBoxFeeTextField_RepaymentsForEachPeriod = new JTextField();
+			TreasureBoxFeeTextField_RepaymentsForEachPeriod.setBounds(540, 490, 180, 25);
+			TreasureBoxFeeTextField_RepaymentsForEachPeriod.setBorder(Constants.LIGHT_GRAY_BORDER);
+			TreasureBoxFeeTextField_RepaymentsForEachPeriod.setText("请输入百宝箱费用...");
+			TreasureBoxFeeTextField_RepaymentsForEachPeriod.setFont(Constants.BASIC_FONT4);
+			TreasureBoxFeeTextField_RepaymentsForEachPeriod.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(TreasureBoxFeeTextField_RepaymentsForEachPeriod);
+			
+			ComprehensiveInsuranceFeeTextField = new JTextField();
+			ComprehensiveInsuranceFeeTextField.setBounds(160, 520, 275, 25);
+			ComprehensiveInsuranceFeeTextField.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ComprehensiveInsuranceFeeTextField.setText("请输入全面保费用...");
+			ComprehensiveInsuranceFeeTextField.setFont(Constants.BASIC_FONT4);
+			ComprehensiveInsuranceFeeTextField.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ComprehensiveInsuranceFeeTextField);
+			
+			ProductVersionCodeTextField_RepaymentsForEachPeriod = new JTextField();
+			ProductVersionCodeTextField_RepaymentsForEachPeriod.setBounds(445, 520, 275, 25);
+			ProductVersionCodeTextField_RepaymentsForEachPeriod.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ProductVersionCodeTextField_RepaymentsForEachPeriod.setText("请输入产品代码...");
+			ProductVersionCodeTextField_RepaymentsForEachPeriod.setFont(Constants.BASIC_FONT4);
+			ProductVersionCodeTextField_RepaymentsForEachPeriod.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ProductVersionCodeTextField_RepaymentsForEachPeriod);
+			
+			MonthlyReturnFeeButton = new JButton("每月还款金额查询");
+			MonthlyReturnFeeButton.setFont(Constants.BASIC_FONT4);
+			MonthlyReturnFeeButton.setBounds(10, 550, 140, 25);
+			MainPanel.add(MonthlyReturnFeeButton);
+	
+			LoanPrincipalTextField_MonthlyReturn = new JTextField();
+			LoanPrincipalTextField_MonthlyReturn.setBounds(160, 550, 275, 25);
+			LoanPrincipalTextField_MonthlyReturn.setBorder(Constants.LIGHT_GRAY_BORDER);
+			LoanPrincipalTextField_MonthlyReturn.setText("请输入贷款本金...");
+			LoanPrincipalTextField_MonthlyReturn.setFont(Constants.BASIC_FONT4);
+			LoanPrincipalTextField_MonthlyReturn.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(LoanPrincipalTextField_MonthlyReturn);
+			
+			ProductVersionCodeTextField_MonthlyReturn = new JTextField();
+			ProductVersionCodeTextField_MonthlyReturn.setBounds(445, 550, 275, 25);
+			ProductVersionCodeTextField_MonthlyReturn.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ProductVersionCodeTextField_MonthlyReturn.setText("请输入产品代码...");
+			ProductVersionCodeTextField_MonthlyReturn.setFont(Constants.BASIC_FONT4);
+			ProductVersionCodeTextField_MonthlyReturn.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ProductVersionCodeTextField_MonthlyReturn);
+			
+			MonthlyWeShouldAlsoPrincipalFeeButton = new JButton("每月应还本息查询");
+			MonthlyWeShouldAlsoPrincipalFeeButton.setFont(Constants.BASIC_FONT4);
+			MonthlyWeShouldAlsoPrincipalFeeButton.setBounds(10, 580, 140, 25);
+			MainPanel.add(MonthlyWeShouldAlsoPrincipalFeeButton);
+	
+			ContractNumberTextField_MonthlyWeShouldAlsoPrincipal = new JTextField();
+			ContractNumberTextField_MonthlyWeShouldAlsoPrincipal.setBounds(160, 580, 180, 25);
+			ContractNumberTextField_MonthlyWeShouldAlsoPrincipal.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ContractNumberTextField_MonthlyWeShouldAlsoPrincipal.setText("请输入合同号...");
+			ContractNumberTextField_MonthlyWeShouldAlsoPrincipal.setFont(Constants.BASIC_FONT4);
+			ContractNumberTextField_MonthlyWeShouldAlsoPrincipal.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ContractNumberTextField_MonthlyWeShouldAlsoPrincipal);
+			
+			MonthlyPayableFeeButton = new JButton("每月应付费用查询");
+			MonthlyPayableFeeButton.setFont(Constants.BASIC_FONT4);
+			MonthlyPayableFeeButton.setBounds(350, 580, 140, 25);
+			MainPanel.add(MonthlyPayableFeeButton);
+	
+			ContractNumberTextField_MonthlyPayable = new JTextField();
+			ContractNumberTextField_MonthlyPayable.setBounds(500, 580, 220, 25);
+			ContractNumberTextField_MonthlyPayable.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ContractNumberTextField_MonthlyPayable.setText("请输入合同号...");
+			ContractNumberTextField_MonthlyPayable.setFont(Constants.BASIC_FONT4);
+			ContractNumberTextField_MonthlyPayable.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ContractNumberTextField_MonthlyPayable);
+			
+			MonthlyConsultingFeeAndRateButton = new JButton("月咨询及费率查询");
+			MonthlyConsultingFeeAndRateButton.setFont(Constants.BASIC_FONT4);
+			MonthlyConsultingFeeAndRateButton.setBounds(10, 610, 140, 25);
+			MainPanel.add(MonthlyConsultingFeeAndRateButton);
+	
+			ContractNumberTextField_MonthlyConsulting = new JTextField();
+			ContractNumberTextField_MonthlyConsulting.setBounds(160, 610, 180, 25);
+			ContractNumberTextField_MonthlyConsulting.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ContractNumberTextField_MonthlyConsulting.setText("请输入合同号...");
+			ContractNumberTextField_MonthlyConsulting.setFont(Constants.BASIC_FONT4);
+			ContractNumberTextField_MonthlyConsulting.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ContractNumberTextField_MonthlyConsulting);
+			
+			MonthlyServiceFeeAndRateButton = new JButton("月服务及费率查询");
+			MonthlyServiceFeeAndRateButton.setFont(Constants.BASIC_FONT4);
+			MonthlyServiceFeeAndRateButton.setBounds(350, 610, 140, 25);
+			MainPanel.add(MonthlyServiceFeeAndRateButton);
+	
+			ContractNumberTextField_MonthlyService = new JTextField();
+			ContractNumberTextField_MonthlyService.setBounds(500, 610, 220, 25);
+			ContractNumberTextField_MonthlyService.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ContractNumberTextField_MonthlyService.setText("请输入合同号...");
+			ContractNumberTextField_MonthlyService.setFont(Constants.BASIC_FONT4);
+			ContractNumberTextField_MonthlyService.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ContractNumberTextField_MonthlyService);
+			
+			MonthlyLoanInterestRateButton = new JButton("月贷款利率查询");
+			MonthlyLoanInterestRateButton.setFont(Constants.BASIC_FONT4);
+			MonthlyLoanInterestRateButton.setBounds(10, 640, 140, 25);
+			MainPanel.add(MonthlyLoanInterestRateButton);
+	
+			ContractNumberTextField_MonthlyLoanInterestRate = new JTextField();
+			ContractNumberTextField_MonthlyLoanInterestRate.setBounds(160, 640, 560, 25);
+			ContractNumberTextField_MonthlyLoanInterestRate.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ContractNumberTextField_MonthlyLoanInterestRate.setText("请输入合同号...");
+			ContractNumberTextField_MonthlyLoanInterestRate.setFont(Constants.BASIC_FONT4);
+			ContractNumberTextField_MonthlyLoanInterestRate.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ContractNumberTextField_MonthlyLoanInterestRate);
+			
+			ContractStateUpdateButton = new JButton("合同状态修改");
+			ContractStateUpdateButton.setFont(Constants.BASIC_FONT4);
+			ContractStateUpdateButton.setBounds(10, 670, 140, 25);
+			MainPanel.add(ContractStateUpdateButton);
+	
+			ContractNumberTextField_ContractStateUpdate = new JTextField();
+			ContractNumberTextField_ContractStateUpdate.setBounds(160, 670, 275, 25);
+			ContractNumberTextField_ContractStateUpdate.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ContractNumberTextField_ContractStateUpdate.setText("请输入合同号...");
+			ContractNumberTextField_ContractStateUpdate.setFont(Constants.BASIC_FONT4);
+			ContractNumberTextField_ContractStateUpdate.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ContractNumberTextField_ContractStateUpdate);
+			
+			ContractStateTextField_ContractStateUpdate = new JTextField();
+			ContractStateTextField_ContractStateUpdate.setBounds(445, 670, 275, 25);
+			ContractStateTextField_ContractStateUpdate.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ContractStateTextField_ContractStateUpdate.setText("请输入合同状态...");
+			ContractStateTextField_ContractStateUpdate.setFont(Constants.BASIC_FONT4);
+			ContractStateTextField_ContractStateUpdate.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ContractStateTextField_ContractStateUpdate);
+			
+			ShortMessageSignatureCodeButton = new JButton("短签章验证码查询");
+			ShortMessageSignatureCodeButton.setFont(Constants.BASIC_FONT4);
+			ShortMessageSignatureCodeButton.setBounds(10, 700, 140, 25);
+			MainPanel.add(ShortMessageSignatureCodeButton);
+	
+			PhoneNumberTextField_ShortMessageSignature = new JTextField();
+			PhoneNumberTextField_ShortMessageSignature.setBounds(160, 700, 180, 25);
+			PhoneNumberTextField_ShortMessageSignature.setBorder(Constants.LIGHT_GRAY_BORDER);
+			PhoneNumberTextField_ShortMessageSignature.setText("请输入手机号...");
+			PhoneNumberTextField_ShortMessageSignature.setFont(Constants.BASIC_FONT4);
+			PhoneNumberTextField_ShortMessageSignature.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(PhoneNumberTextField_ShortMessageSignature);
+			
+			PDFSigningContractButton = new JButton("PDF签章合同查询");
+			PDFSigningContractButton.setFont(Constants.BASIC_FONT4);
+			PDFSigningContractButton.setBounds(350, 700, 140, 25);
+			MainPanel.add(PDFSigningContractButton);
+	
+			ContractNumberTextField_PDFSigningContract = new JTextField();
+			ContractNumberTextField_PDFSigningContract.setBounds(500, 700, 220, 25);
+			ContractNumberTextField_PDFSigningContract.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ContractNumberTextField_PDFSigningContract.setText("请输入合同号...");
+			ContractNumberTextField_PDFSigningContract.setFont(Constants.BASIC_FONT4);
+			ContractNumberTextField_PDFSigningContract.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ContractNumberTextField_PDFSigningContract);
+			
+			SignatureRecordDeleteButton = new JButton("签章记录删除");
+			SignatureRecordDeleteButton.setFont(Constants.BASIC_FONT4);
+			SignatureRecordDeleteButton.setBounds(10, 730, 140, 25);
+			MainPanel.add(SignatureRecordDeleteButton);
+	
+			ContractIDTextField_SignatureRecord = new JTextField();
+			ContractIDTextField_SignatureRecord.setBounds(160, 730, 275, 25);
+			ContractIDTextField_SignatureRecord.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ContractIDTextField_SignatureRecord.setText("请输入合同ID...");
+			ContractIDTextField_SignatureRecord.setFont(Constants.BASIC_FONT4);
+			ContractIDTextField_SignatureRecord.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ContractIDTextField_SignatureRecord);
+			
+			ContractNumberTextField_SignatureRecord = new JTextField();
+			ContractNumberTextField_SignatureRecord.setBounds(445, 730, 275, 25);
+			ContractNumberTextField_SignatureRecord.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ContractNumberTextField_SignatureRecord.setText("请输入合同号...");
+			ContractNumberTextField_SignatureRecord.setFont(Constants.BASIC_FONT4);
+			ContractNumberTextField_SignatureRecord.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ContractNumberTextField_SignatureRecord);
+			
+			StoredProcedureExecutionButton = new JButton("存储过程执行");
+			StoredProcedureExecutionButton.setFont(Constants.BASIC_FONT4);
+			StoredProcedureExecutionButton.setBounds(10, 760, 140, 25);
+			MainPanel.add(StoredProcedureExecutionButton);
+	
+			StoredProcedureNameTextField_StoredProcedureExecution = new JTextField();
+			StoredProcedureNameTextField_StoredProcedureExecution.setBounds(160, 760, 275, 25);
+			StoredProcedureNameTextField_StoredProcedureExecution.setBorder(Constants.LIGHT_GRAY_BORDER);
+			StoredProcedureNameTextField_StoredProcedureExecution.setText("请输入存储过程名称...");
+			StoredProcedureNameTextField_StoredProcedureExecution.setFont(Constants.BASIC_FONT4);
+			StoredProcedureNameTextField_StoredProcedureExecution.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(StoredProcedureNameTextField_StoredProcedureExecution);
+			
+			ContractNumberTextField_StoredProcedureExecution = new JTextField();
+			ContractNumberTextField_StoredProcedureExecution.setBounds(445, 760, 275, 25);
+			ContractNumberTextField_StoredProcedureExecution.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ContractNumberTextField_StoredProcedureExecution.setText("请输入合同号...");
+			ContractNumberTextField_StoredProcedureExecution.setFont(Constants.BASIC_FONT4);
+			ContractNumberTextField_StoredProcedureExecution.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ContractNumberTextField_StoredProcedureExecution);
+			
+			ReimbursementPlanButton = new JButton("还款计划表查询");
+			ReimbursementPlanButton.setFont(Constants.BASIC_FONT4);
+			ReimbursementPlanButton.setBounds(10, 790, 140, 25);
+			MainPanel.add(ReimbursementPlanButton);
+	
+			ContractIDTextField_ReimbursementPlan = new JTextField();
+			ContractIDTextField_ReimbursementPlan.setBounds(160, 790, 560, 25);
+			ContractIDTextField_ReimbursementPlan.setBorder(Constants.LIGHT_GRAY_BORDER);
+			ContractIDTextField_ReimbursementPlan.setText("请输入合同ID...");
+			ContractIDTextField_ReimbursementPlan.setFont(Constants.BASIC_FONT4);
+			ContractIDTextField_ReimbursementPlan.setForeground(Color.LIGHT_GRAY); 
+			MainPanel.add(ContractIDTextField_ReimbursementPlan);
